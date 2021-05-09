@@ -81,7 +81,8 @@ JVM은 자바 어플리케이션에서 사용되는 메모리를 모두 자동�
 
 # 메모리 영역(Runtime Data Area)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d754014c-8e45-44e9-9daa-cd9150d23831/_2021-05-09__9.46.42.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d754014c-8e45-44e9-9daa-cd9150d23831/_2021-05-09__9.46.42.png)
+![image](https://user-images.githubusercontent.com/49678555/117567454-6d2cdf00-b0f7-11eb-8fbc-8c7daf90b4bd.png)
+
 
 JVM 위의 모든 자바 어플리케이션은 하나의 JVM 프로세스 위에서 동작하며 쓰레드 단위로 독립된 메모리 공간을 사용하거나, JVM 내에 공유하는 메모리 공간을 갖고 있습니다.
 
