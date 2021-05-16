@@ -57,13 +57,17 @@
 > Reference type(참조형 변수) : 값이 저장되어 있는 주소(memory address)를 저장한다.
 
 - Heap 메모리에 저장된다.
+- `Java.lang.Object`를 상속받은 값으로 기본형이 아니면 모두 참조형 변수이다.
 - 참조형 변수를 선언할 때 변수의 타입으로 클래스의 이름을 사용하므로, 클래스의 이름이 참조변수의 타입이 된다.
 
 ```java
-// 변수의 타입이 기본형이 아닌 것들은 모두 참조형 변수이다.
 // ClassName name;
 Date today = new Date();
 ```
+
+</br>
+
+*cf. 정적 변수(static)와 인스턴스 변수는 Heap 메모리에 저장된다.*
 
 </br>
 
@@ -136,9 +140,9 @@ int num = 7;
 2. **Class Variables** :  `static`으로 클래스 안에서 선언된 변수
    - Scope - 클래스 전체
    - Life time - 프로그램 종료시
-3. **Local Vatiables** : 지역변수.
+3. **Local Variables** : 지역변수.
    - Scope - 변수가 선언된 block  `{ }` 내부
-   - Life time - 선언된 메서드가 종료되는 때
+   - Life time - 선언된 메서드의 종료와 함께 소멸된다. 반복문 또한 선언된 block을 벗어나게 된다면 소멸된다.
 
 </br>
 
@@ -151,7 +155,7 @@ int num = 7;
 > Primitive type 변수는 `boolean`을 제외하고 서로 형변환이 가능하다.
 
 - **Type casting** : 크기가 더 큰 자료형을 더 작은 자료형으로 변환한다.
-이 경우, 데이터 손실이 올 수 있다는 점을 유의하여야 한다.
+  이 경우, 데이터 손실이 올 수 있다는 점을 유의하여야 한다.
 
   ``` java
   int a = 10000;
@@ -173,8 +177,11 @@ int num = 7;
 
 *cf. Reference type에서도 **상속관계**에 있을 때 형변환이 가능하다.*
 
-- Upcast : subclass -> superclass
-- Downcast : superclass -> subclass / **오류 발생의 위험이 있다.**
+- Upcast : subclass -> superclass (자동 형변환)
+  - 이 때 객체 내의 모든 멤버(변수, 메서드)가 아닌, 부모의  멤버에만 접근이 가능하다.
+- Downcast : superclass -> subclass
+  - 명시적으로 타입을 지정해야 캐스팅할 수 있다.
+  - **오류 발생의 위험이 있다.**
 
 
 </br>
