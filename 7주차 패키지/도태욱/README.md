@@ -139,4 +139,4 @@ javac -classpath C:\Java\Store C:\Java\test.java
 
 - 접근 제어자를 사용함으로, 클래스 내부의 데이터를 보호할 수 있다.
 - 데이터의 변경이나 외부의 접근을 제어할 수 있게 된다.
-- 객체지향개념의 캡슐화(encapsulation)에 해당하는 내용이다.
+- 객체지향개념의 **캡슐화(encapsulation)**에 해당하는 내용이다.
