@@ -41,8 +41,7 @@
 
 > Java에서는 실행 시 발생할 수 있는 Exception과 Error를 클래스로 정의하였고, 이 역시 Object 클래스의 subclass이다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84b6bb20-d1b3-4ca5-8f3e-c9920fd9facf/1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84b6bb20-d1b3-4ca5-8f3e-c9920fd9facf/1.png)
-
+![1](https://user-images.githubusercontent.com/69946102/125198803-601aa080-e29e-11eb-928d-0dcfbd4a58bc.png)
 - 모든 예외는 Exception 클래스의 subclass이다.
 - Exception은 크게, RuntimeException인지 아닌지로 나뉘게 된다.
 
