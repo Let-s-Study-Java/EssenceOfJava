@@ -14,7 +14,7 @@
 
 <br/>
 
-### 13-1**.** 스트림 (Stream) / 버퍼 (Buffer) / 채널 (Channel) 기반의 I/O
+### 13-1. 스트림 (Stream) / 버퍼 (Buffer) / 채널 (Channel) 기반의 I/O
 
 ---
 
@@ -85,7 +85,7 @@
 
 </br>
 
-### 13-2**.** InputStream과 OutputStream
+### 13-2. InputStream과 OutputStream
 
 ---
 
@@ -94,11 +94,12 @@
 - 버퍼, 파일, 네트워크에서 입출력되는 데이터를 처리하는 기능을 수행한다.
 - **입출력 대상**에 따라 추상메서드를 구현한 클래스들이 존재한다.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c6ba03df-1f3d-47fb-b7f1-dadd303b9eac/git.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c6ba03df-1f3d-47fb-b7f1-dadd303b9eac/git.png)
+    ![git](https://user-images.githubusercontent.com/69946102/128630150-b47c7a64-9787-4698-871a-ad43dc5fd25b.png)
+
 
 </br>
 
-### 13-3**.** Byte와 Character 스트림
+### 13-3. Byte와 Character 스트림
 
 ---
 
@@ -109,7 +110,7 @@
 
 </br>
 
-### 13-4**.** 표준 스트림 (System.in, System.out, System.err)
+### 13-4. 표준 스트림 (System.in, System.out, System.err)
 
 ---
 
